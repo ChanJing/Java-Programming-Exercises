@@ -1,0 +1,14 @@
+public class AnimalTestDrive{
+	public static void main(String[] args){
+		MyAnimalList list = new MyAnimalList();
+		Dog a = new Dog();
+		Cat b = new Cat();
+		list.add(a);
+		list.add(b);
+	}
+}
+
+public interface Pet{
+	public abstract void beFridendly();
+	public abstract void play();
+}
