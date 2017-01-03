@@ -1,3 +1,7 @@
+/*
+ * Average and worst-case performance of O(n log n). 
+ */
+
 void mergesort(int[] array, int low, int high){
 	if(low < high){
 		int middle = (low + high) / 2;
