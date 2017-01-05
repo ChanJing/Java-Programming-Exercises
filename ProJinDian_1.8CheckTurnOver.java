@@ -20,3 +20,22 @@ public boolean isRotation(Stirng s1, String s2){
 	}
 	return false;
 }
+
+
+/*
+ * If there is a String, the question is to turnover this String
+ * depend on words. For instance, original String is
+ * "My dog is MouMou", the turnover String is "MouMou is dog My".
+ * IMPORTANT: Using Stack and split(" ") method
+ */
+
+public class StackTest{
+	public static void main(String[] args){
+		Stack<String> stack = new Stack<string>();
+		String str = null;
+		for(String s : "My dog is MouMou".split(" "))
+			stack.push(s);
+		while(!stack.empty())
+			str += stack.pop() + " ";
+	}
+}
